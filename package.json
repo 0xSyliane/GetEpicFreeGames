@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "epic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "pkg": "^5.8.1",
+    "puppeteer": "^24.4.0",
+    "puppeteer-core": "^24.4.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "puppeteer"
+    ]
+  }
+}
